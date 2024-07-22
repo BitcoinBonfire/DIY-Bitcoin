@@ -64,7 +64,7 @@ Note: If working with future versions then obviously adjust the code below to re
 
 ### Bitcoin Core
 
-1. Download Core. Go to https://bitcoincore.org/en/releases/, click on release you would like to download then click on first link (ie ...bin/bitcoin-core-XX.X). Save to Downloads Folder.
+1. Download Core. Go to https://bitcoincore.org/en/releases/, click on release you would like to download then click on first link (ie ...bin/bitcoin-core-XX.X). Save to Downloads Folder. NOTE: Downloading through TOR Browser will prompt you to save in their browser/Downloads folder by default which is confusing when you think it went to your home/Downloads folder. I always select home/Downloads location to keep things consistent.
 2. Whichever version you go with, download the SHA256SUMS and SHA256SUMS.asc within the same release bin to your Downloads Folder.
 3. Load up trusted builders/keys to verify through GPG
 	- Go to https://bitcoin.org/en/full-node#linux-instructions
@@ -98,7 +98,8 @@ Note: If working with future versions then obviously adjust the code below to re
 13. Verify Tor Browser is open and connected.
 14. Note to self: if you have backup of the blockchain (.bitcoin folder) then add to appropriate location before proceeding so you don’t have to download the whole thing again.
 15. Run `./bitcoin-qt`
-16. Setup
+16. Press OK (which will install to default directory and not prune). **DO NOT ENABLE PRUNE!**
+17. Setup
 	- Setup up TOR route
 		- Settings -> Options -> Network
 		- Select “Connect through SOCKS5 Proxy”
@@ -118,7 +119,7 @@ Note: If working with future versions then obviously adjust the code below to re
 	- EXIT Core then relaunch so new settings are active... `./bitcoin-qt`
 	- Should now have a “P” next to BTC in bottom right which designates proxy is enabled... [![CoreStatus](https://github.com/BitcoinBonfire/DIY-Bitcoin/blob/main/CoreStatus.jpg)]
 	- Verify connections with peers by right clicking the Peer icon to the right of the “P” and selecting “Show Peers tab”. After awhile if no peers are listed try switching 9150 port to 9050, exit, then relaunch.
-17. Allow Core to run until it’s synced with blockchain (typically 1-4days with fast internet). While this is happening, you can move onto next steps...
+18. Allow Core to run until it’s synced with blockchain (typically 1-4days with fast internet). While this is happening, you can move onto next steps...
 
 ### Fulcrum Server
 
