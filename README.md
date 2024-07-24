@@ -202,11 +202,11 @@ Note: If working with future versions then obviously adjust the code below to re
 	- `quit`
 	- `cd Downloads`
 	- `gpg --verify sparrow-1.9.1-manifest.txt.asc` ...Should say “good signature from Craig Raw”. If so, proceed.
-	- `sha256sum sparrow-1.9.1-1_amd64.deb`
+	- `sha256sum sparrow_1.9.1-1_amd64.deb`
 	- Open sparrow-1.9.1-manifest.txt
 	- Does the value match the file’s checksum? If so, it’s a valid file. Proceed.
 3. Install Sparrow.
-	- Go to Downloads folder and double click on sparrow-1.9.1-1_amd64.deb
+	- Go to Downloads folder and double click on sparrow_1.9.1-1_amd64.deb
 	- Click Install then put in password.
 4. Click on Show Application at Dash and click on Sparrow
 5. Click Next until you can press Configure Server.
