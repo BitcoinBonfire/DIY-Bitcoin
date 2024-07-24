@@ -208,27 +208,28 @@ Note: If working with future versions then obviously adjust the code below to re
 3. Install Sparrow.
 	- Go to Downloads folder and double click on sparrow_1.9.1-1_amd64.deb
 	- Click Install then put in password.
-4. Click on Show Application at Dash and click on Sparrow
-5. Click Next until you can press Configure Server.
-6. **SELECT PRIVATE ELECTRUM**
+4. **STOP HERE IF YOUR FULCRUM SERVER IS STILL SYNCING. ONCE SYNCED THEN PROCEED…**
+5. Click on Show Application at Dash and click on Sparrow
+6. Click Next until you can press Configure Server.
+7. **SELECT PRIVATE ELECTRUM**
 	- URL = `localhost` and `50002`
 	- Toggle “Use SSL” ON
 	- Toggle “Use Proxy” ON
 	- Proxy url = `localhost` and `9150` (or possibly 9050 depending on default tor setting)
 	- [![SparrowServerSettings](https://github.com/BitcoinBonfire/DIY-Bitcoin/blob/main/SparrowServerSettings.jpg)]
 	- Press Test Connection… should say “connected to Fulcrum...”
-7. Might be able to press Cancel here but I pressed “Create Wallet” called it “test” (knowing I was going to delete it later)
-8. Either way I’m wanting to see the onion icon and blue toggle switch in bottom right corner... [![SparrowStatus](https://github.com/BitcoinBonfire/DIY-Bitcoin/blob/main/SparrowStatus.jpg)] ...should also say “connected to… 50002…” briefly on bottom when it loads). If so, success!
-9. Optional layer to make wallet less accessible on boot: File -> Preferences -> General -> Wallet -> Load Recent Wallets ...Toggle OFF so opening Sparrow will not preload a wallet. You could put wallet file in something encrypted like Veracrypt or hidden on computer somewhere so you have to unlock/find file THEN load it.
-10. **To get hardware wallets to work on Linux**
+8. Might be able to press Cancel here but I pressed “Create Wallet” called it “test” (knowing I was going to delete it later)
+9. Either way I’m wanting to see the onion icon and blue toggle switch in bottom right corner... [![SparrowStatus](https://github.com/BitcoinBonfire/DIY-Bitcoin/blob/main/SparrowStatus.jpg)] ...should also say “connected to… 50002…” briefly on bottom when it loads). If so, success!
+10. Optional layer to make wallet less accessible on boot: File -> Preferences -> General -> Wallet -> Load Recent Wallets ...Toggle OFF so opening Sparrow will not preload a wallet. You could put wallet file in something encrypted like Veracrypt or hidden on computer somewhere so you have to unlock/find file THEN load it.
+11. **To get hardware wallets to work on Linux**
 	- Within Sparrow go to TOOLS -> Install Udev Rules
 	- Copy the sudo command
 	- Open a new terminal
 	- Paste (ctrl + shift + v) command. Again, might need to delete [[200 in front of sudo and ~ at end to clean up the command.
 	- Press Enter then password … should say “success : true”
 	- Note it didn’t work the first time. I closed out of Sparrow and reopened and repeated these steps with a newly displayed sudo command.
-11. Load existing wallet (File -> Open Wallet) or Setup a new hardware wallet (File -> New Wallet)
-12. Optional: Delete test wallet 
+12. Load existing wallet (File -> Open Wallet) or Setup a new hardware wallet (File -> New Wallet)
+13. Optional: Delete test wallet 
 	- Open .sparrow folder at Home then wallets folder
 	- Right click test file and select Move to Trash
 
