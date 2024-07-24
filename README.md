@@ -1,8 +1,8 @@
 # DIY Financial Self Sovereignty
 
-This is the current best practices for a do-it-yourself trusted Bitcoin operation to support and transact that focuses on security/anonymity and minimal third-party involvement/dependencies.
+In my opinion, this is the current best practices for a do-it-yourself trusted Bitcoin operation to support and transact that focuses on security/anonymity and minimal third-party involvement/dependencies.
 
-My first journey into Linux was setting this up. Took a bit of research and had fun doing it. I'm still a total noob but that's why I think this procedure is great... It's written by a noob for a noob wanting to reach the endpoint of Financial Self Sovereignty.
+My first journey into Linux was setting this up. Took a bit of research and had fun doing it. I'm still a total noob but that's why I think this procedure is great... It's written by a noob for a noob wanting to reach the endpoint of Financial Self Sovereignty. Minimal technical knowledge is needed to setup. Just requires following step by step instructions. A fun weekend family project? I would hope so! Please share to those that want to take Bitcoin more seriously but need coached through setting up the infrastructure.
 
 ## Configuration
 
