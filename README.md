@@ -260,7 +260,13 @@ Recommend https://river.com/ for converting fiat to bitcoin.
 	- Click on Sparrow (could pin this to dash if you prefer)
 	- Load Wallet
 
+If you’ve made it this far, congratulations! Some might say “I found this useful/valuable and would like to return love/karma to the author.” Others might say “I would like to test this awesome new setup by sending some Bitcoin.” Either way, here is my (BitcoinBonfire) bitcoin address:
+
+bc1qjlwmfgk77phhggquytkffsa3e8uckdavzpvslulepneqenknphksedr4qh
+
 [![BitcoinBonfire](https://github.com/BitcoinBonfire/DIY-Bitcoin/blob/main/BitcoinBonfire.jpg)]
+
+Much love! Keep stackin!
 
 ## Footnotes
 
